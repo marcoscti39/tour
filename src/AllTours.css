@@ -1,0 +1,38 @@
+body{
+    background-color: #f1f5f8;
+    font-family: Arial, Helvetica, sans-serif
+;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#root{
+    background-color: #f1f5f8;
+
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.tours-container{
+    max-width: 600px;
+    margin: 1.5rem 0;
+
+
+}
+
+.refresh-btn{
+    padding: 0.5rem 1rem;
+    background-color: rgb(0, 195, 255);
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+

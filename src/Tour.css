@@ -1,0 +1,69 @@
+.tour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 2rem;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.tour-photo{
+    background-color: red;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.price-name-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tour-name{
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin: 1.3rem;
+
+}
+
+.tour-price{
+    display: block;
+    letter-spacing: .2rem;
+    color: rgb(69, 215, 252);
+    background-color: #f1f5f8;
+    font-size: 1.2rem;
+    margin-right: 1.3rem;
+
+}
+
+.tour-description{
+    color: rgb(92, 92, 92);
+    line-height: 1.4rem;
+    margin: 1.3rem;
+    margin-top: 0;
+}
+
+.tour-feedback-btn{
+    color: rgb(207, 6, 6);
+    background-color: transparent;
+    border: rgb(207, 6, 6) solid 1px;
+    font-size: 1.3rem;
+    padding: 2px 2.3rem;
+    border-radius: 2px;
+    margin-bottom: 1.3rem;
+    cursor: pointer;
+}
+
+.show-text{
+    color: rgb(69, 215, 252);
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 0;
+    cursor: pointer;
+}
